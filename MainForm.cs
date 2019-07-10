@@ -35,7 +35,6 @@ namespace Sudoku
             {
                 byte value = Convert.ToByte(((DataGridView)sender)[e.ColumnIndex, e.RowIndex].Value);
                 sudoku[(byte)e.RowIndex, (byte)e.ColumnIndex] = value;
-                ((DataGridView)sender)[e.ColumnIndex, e.RowIndex]
             }
             catch (Exception ex)
             {
